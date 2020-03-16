@@ -23,3 +23,12 @@ body {
 #answer {
   display: none;
 }
+
+
+#next-move {
+  display: none;
+}
+
+.submission-response {
+  display: none;
+}

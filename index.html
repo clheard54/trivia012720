@@ -23,21 +23,40 @@
                 <p class="card-text">
                   Question?
                 </p>
-                <button class="btn btn-primary" id="answer-button">
-                  Toggle Answer
-                </button>
               </div>
             </div>
           </div>
           <div class="col col-md-6">
+            <div class="enter-answer" id="input">
+              <div class="card-body">
+                <h5 class="card-title">Enter Your Answer</h5>
+                <form id="user-answer">
+                  <input type="text" name="guess"/><br><br>
+                  <input class="btn btn-primary" type="submit" name="submit"/>
+                </form>
+              </div>
+            </div>
+            <div class="card hidden submission-response">
+              <div class="card-body"  id="checker">
+                <p class="response">
+                </p>
+              </div>
+            </div>
             <div class="card hidden" id="answer">
               <div class="card-body">
                 <h5 class="card-title">Answer</h5>
                 <p class="card-text">
                   would we want to see more info here?
                 </p>
+              </div>
+            </div>
+            <div class="card hidden" id="next-move">
+              <div class="card-body">
+                <button class="btn btn-primary" id="show-ans-button">
+                  Show Answer
+                </button>
                 <button class="btn btn-primary" id="next-button">
-                  Next Question
+                Next Question
                 </button>
               </div>
             </div>
